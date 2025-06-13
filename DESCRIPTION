@@ -1,0 +1,18 @@
+Package: ToyPackage
+Title: Compute moments of the Gamma distribution as well as the variance
+Version: 0.0.0.9000
+Authors@R: 
+    person("Roman", "Pfeiler", , "roman.pfeiler@jku.at", role = c("aut", "cre"))
+Description: This package is a toy package only and computes both mean and variance of a Gamma random variable, where E(X) = alpha/beta and V(X) alpha/beta^2.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    pgdraw
+VignetteBuilder: knitr
