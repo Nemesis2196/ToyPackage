@@ -7,7 +7,7 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-Jow Leute willkommen zum ToyPackage Tutorial. Dies interessiert hier wahrscheinlich keine Sau, aber is ok. Wir laden den Shit wie folgt:
+Servus Leute! Willkommen zum ToyPackage Tutorial. Wir laden das Paket wie folgt:
 
 ```{r setup}
 library(ToyPackage)
@@ -19,4 +19,4 @@ Danach können wir den Erwartungswert der Gamma Verteilung für gegebene shape u
 gamma_mean(4,2)
 ```
 
-Ja, mega geil das funktioniert ja Bombe. Du hättest natürlich einfach nur dein Brain aktivieren können und 4/2 rechnen, aber wer will das schon.
+Das funktioniert ja schon mal super. Viel mehr gibt's da auch nicht mehr zu sehen, weil dieses Package ist schon nicht sehr üppig und existiert nur für Testzwecke. Pfiat eich und schene Griaß aus Österreich!
