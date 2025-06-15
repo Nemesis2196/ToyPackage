@@ -19,4 +19,15 @@ Danach können wir den Erwartungswert der Gamma Verteilung für gegebene shape u
 gamma_mean(4,2)
 ```
 
+Weiters ist eine Zufallsvariable $X$ Pólya-Gamma verteilt mit Parametern $b>0$ und $c\in \mathbb{R}$ wenn gilt
+
+$$X \overset{D}{=} \frac{1}{2\pi^2} \sum_{k=1}^\infty \frac{g_k}{(k-1/2)^2 + c^2/(4\pi^2)}$$,
+
+worin $g_k \sim \mathcal{G}(b,1)$ unabhängige Gamma Zufallszahlen sind. Wir können sodann aus der Pólya-Gamma Verteilung eine Realisierung mittels folgendem Code simulieren: 
+
+```{r}
+set.seed(21)
+PG_draw(1,0.5)
+```
+
 Das funktioniert ja schon mal super. Viel mehr gibt's da auch nicht mehr zu sehen, weil dieses Package ist schon nicht sehr üppig und existiert nur für Testzwecke. Pfiat eich und schene Griaß aus Österreich!
