@@ -1,3 +1,3 @@
-# ToyPackage (development version)
+# ToyPackage (version 1.0.0)
 
-* Initial CRAN submission.
+* Erste stabile Package Version.
